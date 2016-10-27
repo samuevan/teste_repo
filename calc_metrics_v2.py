@@ -10,7 +10,7 @@ import math
 import glob
 import sys
 
-
+#testing git
 '''
 rank_comm : Recommended list
 test : list with the items the user already seen
@@ -94,6 +94,12 @@ def NDCG(agg_rankings, test_inputs,size_at=10):
     ndcg_value = ndcg_value/len(agg_rankings)
 
     return ndcg_value   
+
+
+def funtion_to_test_diff():
+    print "this function is just to check if git diff can locate the modified lines"
+    print "I believe it can"
+    return True
 
 
 def MAP(agg_rankings, test_inputs,size_at=10):
